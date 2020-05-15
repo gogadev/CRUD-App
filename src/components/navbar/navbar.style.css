@@ -1,0 +1,23 @@
+nav {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 0.5rem auto;
+  text-align: center;
+}
+
+.nav-title {
+  width: 100vw;
+  font-size: 2.8rem;
+  letter-spacing: 15px;
+  margin-bottom: 1rem;
+  padding: 0.4rem;
+  color: rgba(0, 0, 0, 0.7);
+  border-bottom: 4px solid lightgrey;
+}
+
+.nav-title span {
+  color: lightgrey;
+  text-shadow: 1px 1px black;
+  letter-spacing: 20px;
+}

@@ -1,0 +1,27 @@
+.edit-form {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 0 auto;
+}
+
+.edit-form input {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.edit {
+  width: 11.5vw;
+}
+
+.pen-img {
+  width: 10%;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .edit {
+    width: 100%;
+    padding: 0 2.3rem;
+  }
+}
